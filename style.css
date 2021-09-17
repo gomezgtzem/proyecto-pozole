@@ -116,7 +116,7 @@ header .orange-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  padding-left: 55px;
+  padding-left: 30px;
   padding-bottom: 10%;
 }
 header .orange-boxes div {
