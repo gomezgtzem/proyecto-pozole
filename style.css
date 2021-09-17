@@ -179,43 +179,87 @@ main .orange-square {
   border: 2px solid #eb5a2c;
 }
 
-.gallery{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: stretch;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    height: 400px;
-    margin: 20% 0 15% 0;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 400px;
+  margin: 20% 0 5% 5%;
 }
-.gallery .img01{
-    width: 25%;
-    height: 35%;
+.gallery .img01 {
+  width: 25%;
+  height: 35%;
+}
+.gallery .img02 {
+  width: 25%;
+  height: 65%;
+}
+.gallery .img03 {
+  width: 35%;
+  height: 100%;
+}
+.gallery .img04 {
+  width: 40%;
+  height: 33%;
+}
+.gallery .img05 {
+  width: 40%;
+  height: 33%;
+}
+.gallery .img06 {
+  width: 40%;
+  height: 33%;
+}
+.gallery div img {
+  width: 100%;
+  height: 100%;
+}
 
+.form-space {
+  background: linear-gradient(to right, #eb5a2c, #c4c4c4);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  width: 90%;
+  height: 400px;
 }
-.gallery .img02{
-    width: 25%;
-    height: 65%;
+.form-space .form-text {
+  width: 35%;
+  height: 90%;
+  align-self: center;
 }
-.gallery .img03{
-    width: 35%;
-    height: 100%;
+.form-space label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 85px;
+  text-align: left;
+  color: #ffffff;
 }
-.gallery .img04{
-    width: 40%;
-    height: 33%;
+.form-space .form {
+  width: 60%;
+  height: 90%;
+  text-align: center;
 }
-.gallery .img05{
-    width: 40%;
-    height: 33%;
+.form-space .form .orange-input {
+  background-color: #eb5a2c;
 }
-.gallery .img06{
-    width: 40%;
-    height: 33%;
+.form-space .form input[type="text"] {
+  border-radius: 20px;
+  border-color: transparent transparent transparent;
+  width: 70%;
 }
-.gallery div img{
-width: 100%;
-height: 100%;
+.form-space .form input[type="button"] {
+  border-radius: 20px;
+  border-color: transparent transparent transparent;
+  width: 35%;
+}
+.form-space .form div{
+    margin: 30px;
 }
